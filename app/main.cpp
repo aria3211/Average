@@ -1,12 +1,22 @@
 
-#include <iostream>
-#include <stdlib.h>
+# include <iostream>
 
-#include "Foo.h"
+using namespace std;
+
+
 int main()
 {
-  Foo d = Foo();
-  std::cout<< d.doSomething()<<std::endl;
+  int  couner = 0;
+  float numeral=0;
+  float save = 0;
+  cout << "How many number: ";
+  cin >> couner;
+  for (int i=0; i<couner;++i){
+    cout << "Enter a number: "<< i <<'\n';
+    cin >> numeral;
+    save +=numeral;
 
-  return 0;
+
+  }
+  cout << "Average is "<< save/couner<<'\n';
 }
