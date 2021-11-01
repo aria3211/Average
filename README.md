@@ -1,3 +1,3 @@
 CppStarter
 
-https://youtu.be/B8qw38DFaac
+Average with C++
